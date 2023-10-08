@@ -1,3 +1,3 @@
 #!/bin/sh -l
 
-dotnet /Sharpmaid.dll $@
+dotnet /app/Sharpmaid.dll $@
