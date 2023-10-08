@@ -1,0 +1,22 @@
+name: 'Sharpmaid'
+author: 'Nurzhan Aitbayev'
+description: 'create UML diagrams using mermaid from c# classes'
+branding:
+  icon: book-open
+  color: green
+inputs:
+  entity-path:
+    description: 'The path where the entities are located.'
+    required: true
+    default: '.'
+  uml-file:
+    description: 'File to update. Default to UML.md'
+    required: true
+    default: 'UML.md'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.entity-path }}
+    - ${{ inputs.uml-file }}
+  entrypoint: "/entrypoint.sh"
