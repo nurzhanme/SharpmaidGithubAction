@@ -42,7 +42,7 @@ Here is the sample of pipeline
 
 **Required** The path where the entities are located.
 
-### `github-sarif`
+### `uml-file`
 
 **Required** File to update. Default to UML.md
 
