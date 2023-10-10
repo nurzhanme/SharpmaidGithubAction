@@ -1,7 +1,7 @@
 # SharpmaidGithubAction
 **SharpmaidGithubAction** is a Github action for creating class diagrams using mermaid from c# entity classes
 
-![Sample Repository](https://github.com/nurzhanme/UmlGenSample)
+[Sample Repository](https://github.com/nurzhanme/UmlGenSample)
 
 ## Usage
 
